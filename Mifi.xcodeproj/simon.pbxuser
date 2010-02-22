@@ -71,17 +71,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 288568425;
-			PBXWorkspaceStateSaveDate = 288568425;
+			PBXPerProjectTemplateStateSaveDate = 288575279;
+			PBXWorkspaceStateSaveDate = 288575279;
 		};
 		perUserProjectItems = {
-			F403602B11333486001C7D33 /* PlistBookmark */ = F403602B11333486001C7D33 /* PlistBookmark */;
-			F403602C11333486001C7D33 /* PlistBookmark */ = F403602C11333486001C7D33 /* PlistBookmark */;
+			F403603011334506001C7D33 = F403603011334506001C7D33 /* PlistBookmark */;
+			F403603111334506001C7D33 = F403603111334506001C7D33 /* PlistBookmark */;
 			F405F03A1129AB050063D093 = F405F03A1129AB050063D093 /* PBXTextBookmark */;
 			F405F03B1129AB050063D093 = F405F03B1129AB050063D093 /* PBXTextBookmark */;
 			F41598261133301F009B95B0 = F41598261133301F009B95B0 /* PBXTextBookmark */;
-			F41598271133301F009B95B0 = F41598271133301F009B95B0 /* PlistBookmark */;
-			F415982C113330FC009B95B0 = F415982C113330FC009B95B0 /* PlistBookmark */;
 			F42A84281105183A00CC2134 = F42A84281105183A00CC2134 /* PlistBookmark */;
 			F4324A811098D9DB001813B1 = F4324A811098D9DB001813B1 /* PBXTextBookmark */;
 			F4324A9B1098DB88001813B1 = F4324A9B1098DB88001813B1 /* PBXTextBookmark */;
@@ -99,12 +97,13 @@
 			F4E2F61F1093F86600AF4124 = F4E2F61F1093F86600AF4124 /* PBXTextBookmark */;
 			F4E2F6231093F86600AF4124 = F4E2F6231093F86600AF4124 /* PBXTextBookmark */;
 			F4E2F6261093F86600AF4124 = F4E2F6261093F86600AF4124 /* PBXTextBookmark */;
+			F4ED637E11334F310048B7CA /* PlistBookmark */ = F4ED637E11334F310048B7CA /* PlistBookmark */;
 		};
 		sourceControlManager = F4B110A01093A84100189C7A /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	F403602B11333486001C7D33 /* PlistBookmark */ = {
+	F403603011334506001C7D33 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Mifi-Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -113,9 +112,9 @@
 		);
 		name = "/Users/simon/Development/Sensible Duck/Mifi/Mifi-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	F403602C11333486001C7D33 /* PlistBookmark */ = {
+	F403603111334506001C7D33 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Mifi-Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -124,7 +123,7 @@
 		);
 		name = "/Users/simon/Development/Sensible Duck/Mifi/Mifi-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	F405F03A1129AB050063D093 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -155,28 +154,6 @@
 		rType = 0;
 		vrLen = 1501;
 		vrLoc = 3466;
-	};
-	F41598271133301F009B95B0 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Mifi-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/simon/Development/Sensible Duck/Mifi/Mifi-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	F415982C113330FC009B95B0 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Mifi-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/simon/Development/Sensible Duck/Mifi/Mifi-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	F42A84281105183A00CC2134 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -476,5 +453,16 @@
 		name = UIProgressView.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIProgressView.h;
 		sourceTree = "<absolute>";
+	};
+	F4ED637E11334F310048B7CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Mifi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/simon/Development/Sensible Duck/Mifi/Mifi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 }
