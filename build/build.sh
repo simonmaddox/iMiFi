@@ -19,7 +19,7 @@ KEYCHAIN=~/Library/Keychains/login.keychain
 [ -d "$PROFILE_HOME" ] || mkdir -p "$PROFILE_HOME"
 security unlock -p $PASSWORD
  
-cd $WORKSPACE/iphone;
+#cd $WORKSPACE;
 agvtool new-version -all $BUILD_NUMBER
  
 for sdk in $SDKS; do
