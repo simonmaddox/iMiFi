@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MifiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MifiAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		F4324A291098D762001813B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4324A281098D762001813B1 /* SystemConfiguration.framework */; };
+		F4324AD41098DE6C001813B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4324AD31098DE6C001813B1 /* Default.png */; };
+		F4324ADE1098E149001813B1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4324ADD1098E149001813B1 /* icon.png */; };
+		F43261051109BD3C00174B74 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261041109BD3C00174B74 /* libFlurry.a */; };
+		F43261311109C05200174B74 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261301109C05200174B74 /* AddressBook.framework */; };
+		F43261331109C05200174B74 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261321109C05200174B74 /* AudioToolbox.framework */; };
+		F43261351109C05200174B74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261341109C05200174B74 /* CoreGraphics.framework */; };
+		F43261371109C05200174B74 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261361109C05200174B74 /* CoreLocation.framework */; };
+		F43261391109C05200174B74 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261381109C05200174B74 /* MediaPlayer.framework */; };
+		F432613B1109C05200174B74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F432613A1109C05200174B74 /* QuartzCore.framework */; };
+		F43261AD1109C07A00174B74 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261AC1109C07A00174B74 /* MessageUI.framework */; };
+		F43261E11109C23800174B74 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261DF1109C23800174B74 /* libAdMobDevice.a */; };
+		F43261E21109C23800174B74 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43261E01109C23800174B74 /* libAdMobSimulator.a */; };
+		F43262161109C52100174B74 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = F43262151109C52100174B74 /* Entitlements.plist */; };
+		F46903A610C9564F007A0128 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46903A410C9564F007A0128 /* InfoViewController.m */; };
+		F46903A710C9564F007A0128 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46903A510C9564F007A0128 /* InfoViewController.xib */; };
+		F4B1109F1093A84100189C7A /* MifiData.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1109E1093A84100189C7A /* MifiData.m */; };
+		F4E2F51A1093DBB200AF4124 /* MifiStatus.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E2F5191093DBB200AF4124 /* MifiStatus.plist */; };
+		F4E2F5BA1093EC0400AF4124 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E2F5B91093EC0400AF4124 /* Settings.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MifiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MifiAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MifiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MifiAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Mifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Mifi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mifi_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Mifi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mifi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F4324A281098D762001813B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F4324AD31098DE6C001813B1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4324ADD1098E149001813B1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F43261031109BD3C00174B74 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		F43261041109BD3C00174B74 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		F43261301109C05200174B74 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F43261321109C05200174B74 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F43261341109C05200174B74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F43261361109C05200174B74 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F43261381109C05200174B74 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F432613A1109C05200174B74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F43261AC1109C07A00174B74 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F43261DD1109C23800174B74 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		F43261DE1109C23800174B74 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		F43261DF1109C23800174B74 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice.a; sourceTree = "<group>"; };
+		F43261E01109C23800174B74 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator.a; sourceTree = "<group>"; };
+		F43262151109C52100174B74 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		F46903A310C9564F007A0128 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		F46903A410C9564F007A0128 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		F46903A510C9564F007A0128 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		F4B1109D1093A84100189C7A /* MifiData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MifiData.h; sourceTree = "<group>"; };
+		F4B1109E1093A84100189C7A /* MifiData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MifiData.m; sourceTree = "<group>"; };
+		F4E2F5191093DBB200AF4124 /* MifiStatus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MifiStatus.plist; sourceTree = "<group>"; };
+		F4E2F5B91093EC0400AF4124 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				F4324A291098D762001813B1 /* SystemConfiguration.framework in Frameworks */,
+				F43261051109BD3C00174B74 /* libFlurry.a in Frameworks */,
+				F43261311109C05200174B74 /* AddressBook.framework in Frameworks */,
+				F43261331109C05200174B74 /* AudioToolbox.framework in Frameworks */,
+				F43261351109C05200174B74 /* CoreGraphics.framework in Frameworks */,
+				F43261371109C05200174B74 /* CoreLocation.framework in Frameworks */,
+				F43261391109C05200174B74 /* MediaPlayer.framework in Frameworks */,
+				F432613B1109C05200174B74 /* QuartzCore.framework in Frameworks */,
+				F43261AD1109C07A00174B74 /* MessageUI.framework in Frameworks */,
+				F43261E11109C23800174B74 /* libAdMobDevice.a in Frameworks */,
+				F43261E21109C23800174B74 /* libAdMobSimulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F43261DC1109C23800174B74 /* AdMob */,
+				F43261021109BD3C00174B74 /* FlurryLib */,
+				F46903A310C9564F007A0128 /* InfoViewController.h */,
+				F46903A410C9564F007A0128 /* InfoViewController.m */,
+				F46903A510C9564F007A0128 /* InfoViewController.xib */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* MifiAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MifiAppDelegate.m */,
+				F4B1109D1093A84100189C7A /* MifiData.h */,
+				F4B1109E1093A84100189C7A /* MifiData.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Mifi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Mifi_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				F43262151109C52100174B74 /* Entitlements.plist */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Mifi-Info.plist */,
+				F4324ADD1098E149001813B1 /* icon.png */,
+				F4324AD31098DE6C001813B1 /* Default.png */,
+				F4E2F5191093DBB200AF4124 /* MifiStatus.plist */,
+				F4E2F5B91093EC0400AF4124 /* Settings.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43261301109C05200174B74 /* AddressBook.framework */,
+				F43261321109C05200174B74 /* AudioToolbox.framework */,
+				F43261341109C05200174B74 /* CoreGraphics.framework */,
+				F43261361109C05200174B74 /* CoreLocation.framework */,
+				F43261381109C05200174B74 /* MediaPlayer.framework */,
+				F432613A1109C05200174B74 /* QuartzCore.framework */,
+				F4324A281098D762001813B1 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				F43261AC1109C07A00174B74 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43261021109BD3C00174B74 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				F43261031109BD3C00174B74 /* FlurryAPI.h */,
+				F43261041109BD3C00174B74 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
+		F43261DC1109C23800174B74 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				F43261DD1109C23800174B74 /* AdMobDelegateProtocol.h */,
+				F43261DE1109C23800174B74 /* AdMobView.h */,
+				F43261DF1109C23800174B74 /* libAdMobDevice.a */,
+				F43261E01109C23800174B74 /* libAdMobSimulator.a */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Mifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mifi" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mifi;
+			productName = Mifi;
+			productReference = 1D6058910D05DD3D006BFB54 /* Mifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mifi" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Mifi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				F4E2F51A1093DBB200AF4124 /* MifiStatus.plist in Resources */,
+				F4E2F5BA1093EC0400AF4124 /* Settings.plist in Resources */,
+				F4324AD41098DE6C001813B1 /* Default.png in Resources */,
+				F4324ADE1098E149001813B1 /* icon.png in Resources */,
+				F46903A710C9564F007A0128 /* InfoViewController.xib in Resources */,
+				F43262161109C52100174B74 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MifiAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				F4B1109F1093A84100189C7A /* MifiData.m in Sources */,
+				F46903A610C9564F007A0128 /* InfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Simon Maddox (42M9GWZCNT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mifi_Prefix.pch;
+				INFOPLIST_FILE = "Mifi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/FlurryLib\"",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = Mifi;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "85822764-B7DD-45C7-B1BB-8D90B1FE8713";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mifi_Prefix.pch;
+				INFOPLIST_FILE = "Mifi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/FlurryLib\"",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = Mifi;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+		F43262091109C4E100174B74 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = AdHoc;
+		};
+		F432620A1109C4E100174B74 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sensible Duck Ltd";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mifi_Prefix.pch;
+				INFOPLIST_FILE = "Mifi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/FlurryLib\"",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = Mifi;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E555709-7E3E-4F7B-BA4F-7277008E279F";
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F432620A1109C4E100174B74 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F43262091109C4E100174B74 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

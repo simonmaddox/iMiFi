@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WwNetwkName</key>
+	<string>Network</string>
+	<key>WwNetwkTech</key>
+	<string>Bearer</string>
+	<key>WiConnClients</key>
+	<string>Clients</string>
+	<key>WwIpAddr</key>
+	<string>IP Address</string>
+	<key>WwSessionTxMb</key>
+	<string>Transfer Up</string>
+	<key>WwSessionRxMb</key>
+	<string>Transfer Down</string>
+	<key>WwConnStatus</key>
+	<string>Status</string>
+	<key>BaBattStat</key>
+	<string>Battery</string>
+	<key>WwRssi</key>
+	<string>Signal</string>
+</dict>
+</plist>
