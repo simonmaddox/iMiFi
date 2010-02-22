@@ -12,11 +12,12 @@ rm -rf $OUTPUT
 mkdir -p $OUTPUT
 PROFILE_HOME=~/Library/MobileDevice/Provisioning\ Profiles/
 KEYCHAIN=~/Library/Keychains/login.keychain
- 
+
+. "/Users/simon/build/config"
 . "$WORKSPACE/build/build.config"
  
 [ -d "$PROFILE_HOME" ] || mkdir -p "$PROFILE_HOME"
-security unlock
+security unlock -p $PASSWORD
  
 cd $WORKSPACE/iphone;
 agvtool new-version -all $BUILD_NUMBER
