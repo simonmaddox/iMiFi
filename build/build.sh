@@ -16,7 +16,7 @@ KEYCHAIN=~/Library/Keychains/login.keychain
 . "$WORKSPACE/build/build.config"
  
 [ -d "$PROFILE_HOME" ] || mkdir -p "$PROFILE_HOME"
-security unlock -p $PASSWORD
+security unlock
  
 cd $WORKSPACE/iphone;
 agvtool new-version -all $BUILD_NUMBER
