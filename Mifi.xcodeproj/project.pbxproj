@@ -283,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Simon Maddox (42M9GWZCNT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -296,7 +296,7 @@
 					"\"$(SRCROOT)/Classes/AdMob\"",
 				);
 				PRODUCT_NAME = Mifi;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "85822764-B7DD-45C7-B1BB-8D90B1FE8713";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
